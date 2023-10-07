@@ -1218,7 +1218,8 @@ terceira_resposta["body"]
 1. Criar uma nova lista removendo o segundo item.
 
 ```elixir
-List.delete_at(resposta_completa, 3)
+nova_lista = [primeiro, _ | resto] = resposta_completa
+[primeiro | resto]
 ```
 
 ### Exercicio 5
