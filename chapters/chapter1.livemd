@@ -1109,7 +1109,7 @@ delta = :math.sqrt(2 ** 2 - 4 * 1 * 1)
 ```
 
 ```elixir
-x = -(-2) / 2 * 1
+x = (2 + delta) / 2 * 1
 ```
 
 ### Exercicio 4
